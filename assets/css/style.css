@@ -1,0 +1,29 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&display=swap');
+
+/* Entire Site */
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navigation Styling */
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+}
+
+.nav-div {
+    width: 100vw;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+}
+
+/* Homepage Styling */
+
+.homepage {
+    /* background: url('/media/landing.jpg') no-repeat center center fixed; */
+}
