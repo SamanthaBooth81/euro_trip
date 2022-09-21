@@ -1,5 +1,17 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+/* Navigation Styling */
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+}
+
 .nav-div {
-    background-color: aquamarine;
     width: 100vw;
     text-align: center;
+}
+
+.navbar-nav {
+    margin: 0 auto;
 }
