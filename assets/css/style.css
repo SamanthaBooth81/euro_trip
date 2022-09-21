@@ -1,13 +1,13 @@
-/* Google Font */
+/* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Quicksand&display=swap');
 
-/* Entire Site */
+/* ----------------------------------------------- Body Styling */
 
 body {
     font-family: 'Quicksand', sans-serif;
 }
 
-/* Navigation Styling */
+/* ----------------------------------------------- Navigation Styling */
 .navbar-brand {
     font-family: 'Caveat', cursive;
     font-size: 36px;
@@ -26,7 +26,7 @@ body {
     color: #1D5D4C;
 }
 
-/* Homepage Styling */
+/* ----------------------------------------------- Homepage Styling */
 
 .homepage {
     position: relative;
