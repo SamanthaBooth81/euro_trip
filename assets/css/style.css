@@ -3,8 +3,27 @@
 
 /* ----------------------------------------------- Body Styling */
 
+html, body {
+    height: 100%; /* required for sticky footer*/
+  }
+
 body {
     font-family: 'Quicksand', sans-serif;
+    /* required for sticky footer */
+    display: flex; 
+    flex-direction: column;
+}
+
+.content {
+    /* required for sticky footer */
+    flex: 1 0 auto;
+  }
+
+/* ----------------------------------------------- All Page Styling */
+
+.headings {
+    text-align: center;
+    padding: 15px;
 }
 
 /* ----------------------------------------------- Navigation Styling */
@@ -51,4 +70,59 @@ body {
 .welcome p {
     font-size: larger;
     font-weight: bolder;
+}
+
+/* ----------------------------------------------- Carousel Styling */
+
+.carousel-style {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.carousel-imgs {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* ----------------------------------------------- Footer Styling */
+
+.footer {
+    background-color: #1D5D4C;
+    padding: 3%;
+    flex-shrink: 0; /* required for sticky footer*/
+    display: flex;
+}
+
+.socials {
+    width: 80%;
+}
+
+.footer a {
+    text-decoration: none;
+    /* float: left; */
+}
+
+.footer-icons {
+    color: white;
+    font-size: x-large;
+    padding-right: 10px;
+}
+
+.footer-icons:hover {
+    color: rgb(29, 26, 21);
+}
+
+.copyright {
+    flex-grow: 1;
+}
+
+.copyright-icon {
+    color: white;
+    padding-right: 10px;
+}
+
+.copyright-p {
+    float: right;
+    color: white;
 }
