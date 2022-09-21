@@ -25,5 +25,21 @@ body {
 /* Homepage Styling */
 
 .homepage {
-    /* background: url('/media/landing.jpg') no-repeat center center fixed; */
+    background: url('https://github.com/SamanthaBooth81/euro_trip/blob/main/assets/images/bosnia-kravice-falls.JPG?raw=true') no-repeat center center fixed;
+    height: 75vh;
+}
+
+.welcome {
+    background-color: rgba(212, 206, 206, 0.333);
+    height: 100%;
+}
+
+.welcome-msg {
+    padding: 10% 20% 0 20%;
+    text-align: center;
+}
+
+.welcome-msg p {
+    font-size: larger;
+    font-weight: bolder;
 }
