@@ -110,6 +110,28 @@ body {
     object-fit: cover;
 }
 
+.carousel {
+    background: #2aa571;
+    margin-bottom: 15px;
+}
+
+.carousel-caption {
+    color: black;
+    background: #ffffff8d;
+    border-radius: 15px;
+}
+
+.carousel-header {
+    color: black;
+    text-decoration: none;
+}
+
+.carousel-header:hover {
+    color: aliceblue;
+    animation: grow 8s ease-in-out infinite;
+
+}
+
 /* ----------------------------------------------- Footer Styling */
 
 .footer {
@@ -120,7 +142,7 @@ body {
 }
 
 .socials {
-    width: 80%;
+    width: 28%;
 }
 
 .footer a {
@@ -136,6 +158,12 @@ body {
 
 .footer-icons:hover {
     color: rgb(29, 26, 21);
+}
+
+#mc_embed_signup {
+    background-color: #1D5D4C;
+    color: #fff;
+    width: 500px;
 }
 
 .copyright {
