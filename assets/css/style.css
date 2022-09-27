@@ -45,6 +45,31 @@ body {
     color: #1D5D4C;
 }
 
+/* Code for Nav Underline Hover from https://www.30secondsofcode.org/css/s/hover-underline-animation */
+
+.nav-item {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #1D5D4C;
+    transform-origin: center;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .nav-item:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
 /* ----------------------------------------------- Homepage Styling */
 
 .homepage {
