@@ -157,6 +157,11 @@ body {
     width:100%;
   }
 
+ .carousel-header h4,
+ .carousel-caption p {
+    font-weight: 550;
+  }
+
 
 /* ----------------------------------------------- Footer Styling */
 
